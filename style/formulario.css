@@ -1,0 +1,38 @@
+
+input[type=text] {      /*[type="text"]*/
+    width: 50%;
+    margin: 8px 10px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+    background-color: white;
+    background-image: url(/image/icono.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 4%;
+    padding-left: 40px;
+    /* cambio - tiempo - forma */
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=number] {
+    width: 30%;
+    margin: 4px 0;
+    padding: 10px 10px;
+    border: 1px solid rgb(74, 201, 117);
+    border-radius: 5px;
+    background-color: rgb(60, 95, 27);
+    color: rgb(230, 227, 233);
+}
+
+input[type=password] {
+    border: none;
+    border-bottom: 2px solid red;
+    /*-webkit-text-security:square;*/
+}
+
+/*Entradas enfocadas --> Focus*/
+input[type=text]:focus{
+    width: 100%;
+    /* background-color: white; */
+    /* border: 3px solid skyblue */
+}
